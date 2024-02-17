@@ -1,4 +1,4 @@
-# function with def keyword
+# function in python use def keyword
 def output():
     print("hello world")
 output()
@@ -18,13 +18,13 @@ add(c=3,a=4,b=5)
 # return values
 def add(a,b,c):
     return a+b+c
-
 print(add(1,2,3))
 
 # default args
 def add_default(a=1,b=2):
     return a+b
 print(add_default(1))
+
 # function annotation
 def word_multiplier(word:str,times:int)->str:
     return word*times

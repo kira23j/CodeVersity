@@ -19,6 +19,7 @@ while True:
     elif x==0:
         print("loop")
     elif x==1:
-        pass
+        continue
+
     
     
