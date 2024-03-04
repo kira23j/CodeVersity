@@ -20,4 +20,12 @@ void main() {
   // to assign null value
   int? value1 = null;
   print(value1);
+
+//conditionals in dart
+  int age = 21;
+  if (age > 10) {
+    print("qualified");
+  } else {
+    print("not qualified");
+  }
 }
