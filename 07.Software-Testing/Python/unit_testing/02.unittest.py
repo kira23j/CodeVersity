@@ -8,4 +8,4 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual("beautiful".count("u"),2)
 if __name__=="__main__":
     unittest.main()
-    
+
