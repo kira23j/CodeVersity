@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.env
+
+# Compiled bytecode
+*.pyc
+__pycache__/
+
+# IDE and OS specific files
+# Adjust these based on your IDE and OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Local logs and databases
+*.log
+db.sqlite3  # Or adjust the filename for your database
+
+# Temporary test data
+# Consider using a separate directory for test data
+test_data/
+
+# Coverage reports
+coverage/
+
+# Documentation builds (if using Sphinx or similar)
+docs/_build/

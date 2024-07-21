@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    # Install dependencies during build
+    command: sh -c "pip install -r requirements.txt && uvicorn main:app --reload --port=8000 --host=0.0.0.0"
+    ports:
+      - 8000:8000
